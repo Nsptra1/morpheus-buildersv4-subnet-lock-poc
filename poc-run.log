@@ -1,0 +1,15 @@
+COMMAND: BASE_RPC_URL=https://mainnet.base.org forge test -vv
+FORGE: forge Version: 1.9.0
+DATE: 2026-11-16T22:40:26Z
+PINNED BLOCK: 58391435 (Base mainnet)
+----
+Compiling 21 files with Solc 0.8.24
+Solc 0.8.24 finished in 1.55s
+Compiler run successful!
+
+Ran 1 test for test/NV1SubnetLock.t.sol:NV1SubnetLockTest
+[PASS] test_SubnetAdminPermanentlyLocksStakerPrincipal() (gas: 1869938)
+Suite result: ok. 1 passed; 0 failed; 0 skipped; finished in 1.44s (6.72ms CPU time)
+
+Ran 1 test suite in 1.44s (1.44s CPU time): 1 tests passed, 0 failed, 0 skipped (1 total tests)
+EXIT=0
